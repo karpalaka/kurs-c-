@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    //zadanie1
     int pierwsza_liczba, druga_liczba, trzecia_liczba;
 
     cout << "Podaj pierwsza liczbe:";
@@ -14,18 +15,22 @@ int main()
     cout << "Podaj trzecią liczbe:";
     cin >> trzecia_liczba;
     cout << "\nSrednia: " << pierwsza_liczba + druga_liczba + trzecia_liczba/3;
+    //zadanie2
     int promien;
     cout << "\nPodaj pierwsza liczbe";
     cin >> promien;
     cout << "\nPole kola" << 3.14 * (promien * promien);
+    //zadanie3
     int stopnie;
     cout << "\nPodaj stopnie celcjusza";
     cin >> stopnie;
     cout << "\nFahrenhait:" << stopnie * 1.8 + 32;
+    //zadanie4
     int cena_paliwo;
     cout << "\nPodaj cene paliwa";
     cin >> cena_paliwo;
     cout << "\nKoszt Paliwa" << 0.09 * 335 * cena_paliwo;
+    //zadanie5
     int dlugosc_trasy, spalanie_auta;
     cout << "\nPodaj dlugosc trasy";
     cin >> dlugosc_trasy;
