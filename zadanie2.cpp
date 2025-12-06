@@ -5,25 +5,28 @@ using namespace std;
 
 int main()
 {
+//zadanie1
     int pierwsza_liczba;
         cout << "\nPodaj pierwsza liczbe";
     cin >> pierwsza_liczba;
             if (pierwsza_liczba > 0) {
                 cout << "\n Liczba jest dodatnia";
         }
-
+//zadanie2
             if (pierwsza_liczba % 2 == 0) {
                 cout << "\nLiczba jest parzysta";
         }
             else {
                 cout << "\nLiczba jest nieparzysta";
             }
+//zadanie3    
             if (pierwsza_liczba >= 10 && pierwsza_liczba <= 50) {
                 cout << "\nLiczba miesci sie w przedziale";
         }
             else {
                 cout << "\nLiczba nie miesci sie w przedziale";
             }
+//zadanie4    
             if (pierwsza_liczba < 0) {
                 cout << "liczba ujemna\n";
             }
@@ -33,7 +36,7 @@ int main()
             else {
                 cout << "Liczba dodatnia\n";
             }
-            
+//zadanie5            
             int a, b, c;
             cout << "Wprowadz trzy liczby calkowite: ";
             cin >> a >> b >> c;
