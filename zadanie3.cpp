@@ -5,12 +5,16 @@ using namespace std;
 
 int main()
 {
+
+	
 	//zadanie1
 	for (int i = 0; i <= 10; i++) {
 		cout << i;
 		
 	}
 	cout << endl;
+
+	
 	//zadanie2
 	int i2 = 1;
 	while (i2 <= 20) {
@@ -24,11 +28,15 @@ int main()
 			
 	}
 	cout << endl;
+
+	
 	//zadanie3
 	for (int i3 = 100; i3 >= 0; i3--) {
 		cout << i3;
 	}
 	cout << endl;
+
+	
 	//zadanie4
 	int suma = 0;
 	for (int i4 =1; i4 <= 100; i4++) {
@@ -37,6 +45,8 @@ int main()
 
 	}
 	cout << suma << endl;
+
+	
 	//zadanie5
 	for (int i5 = 1; i5 <= 10; i5++) {
 		cout << i5 * i5;
